@@ -99,8 +99,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Account\Entities\Student.cs" />
-    <Compile Include="Account\ValueObjects\Name.cs" />
+    <Compile Include="Store\Entities\Customer.cs" />
+    <Compile Include="Store\Enums\EOrderStatus.cs" />
+    <Compile Include="Store\Entities\Order.cs" />
+    <Compile Include="Store\Entities\OrderItem.cs" />
+    <Compile Include="Store\Entities\Product.cs" />
+    <Compile Include="Store\Entities\Student.cs" />
+    <Compile Include="Store\Repositories\IOrderRepository .cs" />
+    <Compile Include="Store\Repositories\IProductRepository .cs" />
+    <Compile Include="Store\Repositories\ICustomerRepository.cs" />
+    <Compile Include="Store\ValueObjects\Email.cs" />
+    <Compile Include="Store\ValueObjects\Name.cs" />
     <Compile Include="Financial\Entities\Student.cs" />
     <Compile Include="Financial\Entities\Subscription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

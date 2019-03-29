@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using DDDCommerce.Shared.ValueObject;
 using Flunt.Validations;
 
-namespace DDDCommerce.Domain.Account.ValueObjects
+namespace DDDCommerce.Domain.Store.ValueObjects
 {
     public class Name : ValueObject
     {

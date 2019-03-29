@@ -1,5 +1,5 @@
 ﻿using System;
-using DDDCommerce.Domain.Account.ValueObjects;
+using DDDCommerce.Domain.Store.ValueObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace DDDCommerce.Domain.Tests.ValueObjects
